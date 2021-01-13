@@ -294,6 +294,6 @@ class Generator
 
     public function __wakeup()
     {
-        $this->formatters = [];
+        $this->formatters = array();
     }
 }
